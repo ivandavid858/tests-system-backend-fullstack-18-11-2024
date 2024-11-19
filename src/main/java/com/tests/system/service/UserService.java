@@ -10,4 +10,8 @@ public interface UserService {
 
     User saveUser(User user, Set<UserRole> userRoles) throws Exception;
 
+    User getUser(String username);
+
+    void deleteUser(Long id);
+
 }
